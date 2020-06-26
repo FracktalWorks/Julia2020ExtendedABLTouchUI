@@ -424,8 +424,6 @@ class MainUiClass(QtGui.QMainWindow, mainGUI_extended_abl.Ui_MainWindow):
         self.quickStep5NextButton.clicked.connect(self.doneStep)
         # self.moveZPCalibrateButton.pressed.connect(lambda: octopiclient.jog(z=-0.05))
         # self.moveZPCalibrateButton.pressed.connect(lambda: octopiclient.jog(z=0.05))
-        self.moveZMFullCalibrateButton.pressed.connect(lambda: octopiclient.jog(z=-0.025))
-        self.moveZPFullCalibrateButton.pressed.connect(lambda: octopiclient.jog(z=0.025))
         self.quickStep1CancelButton.pressed.connect(self.cancelStep)
         self.quickStep2CancelButton.pressed.connect(self.cancelStep)
         self.quickStep3CancelButton.pressed.connect(self.cancelStep)
