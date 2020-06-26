@@ -189,7 +189,7 @@ background-color: rgb(40, 40, 40);</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../octoprint_Julia2018ExtendedTouchUI/templates/img/splash.png</pixmap>
+       <pixmap>templates/img/splash.png</pixmap>
       </property>
      </widget>
      <widget class="QLabel" name="loadingGif">
@@ -433,7 +433,7 @@ QPushButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/backspace-arrow.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/backspace-arrow.png</iconset>
+        <normaloff>templates/img/backspace-arrow.png</normaloff>templates/img/backspace-arrow.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -492,7 +492,7 @@ QPushButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/verification-mark.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/verification-mark.png</iconset>
+        <normaloff>templates/img/verification-mark.png</normaloff>templates/img/verification-mark.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -1009,8 +1009,8 @@ QPushButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/play-button.png</normaloff>
-        <normalon>../octoprint_Julia2018ExtendedTouchUI/templates/img/pause-button.png</normalon>../octoprint_Julia2018ExtendedTouchUI/templates/img/play-button.png</iconset>
+        <normaloff>templates/img/play-button.png</normaloff>
+        <normalon>templates/img/pause-button.png</normalon>templates/img/play-button.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -1083,7 +1083,7 @@ QPushButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/video-player-stop-button.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/video-player-stop-button.png</iconset>
+        <normaloff>templates/img/video-player-stop-button.png</normaloff>templates/img/video-player-stop-button.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -1132,7 +1132,7 @@ QPushButton:focus {
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../octoprint_Julia2018ExtendedTouchUI/templates/img/Nozzle.png</pixmap>
+       <pixmap>templates/img/Nozzle.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -1410,7 +1410,7 @@ QPushButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/menu.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/menu.png</iconset>
+        <normaloff>templates/img/menu.png</normaloff>templates/img/menu.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -1447,7 +1447,7 @@ QPushButton:focus {
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../octoprint_Julia2018ExtendedTouchUI/templates/img/thumbnail.png</pixmap>
+       <pixmap>templates/img/thumbnail.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -1615,7 +1615,7 @@ QPushButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/settings-1.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/settings-1.png</iconset>
+        <normaloff>templates/img/settings-1.png</normaloff>templates/img/settings-1.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -1876,7 +1876,7 @@ background-color: rgba(255, 255, 255, 0);</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../octoprint_Julia2018ExtendedTouchUI/templates/img/bed.png</pixmap>
+       <pixmap>templates/img/bed.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -1993,7 +1993,7 @@ QPushButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</iconset>
+        <normaloff>templates/img/arrows-4.png</normaloff>templates/img/arrows-4.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -2052,7 +2052,7 @@ QToolButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/settings-1.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/settings-1.png</iconset>
+        <normaloff>templates/img/settings-1.png</normaloff>templates/img/settings-1.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -2116,7 +2116,7 @@ QToolButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/printer.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/printer.png</iconset>
+        <normaloff>templates/img/printer.png</normaloff>templates/img/printer.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -2178,7 +2178,7 @@ QToolButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/settings.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/settings.png</iconset>
+        <normaloff>templates/img/settings.png</normaloff>templates/img/settings.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -2240,7 +2240,7 @@ QToolButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/cart.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/cart.png</iconset>
+        <normaloff>templates/img/cart.png</normaloff>templates/img/cart.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -2305,7 +2305,7 @@ QToolButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/reload.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/reload.png</iconset>
+        <normaloff>templates/img/reload.png</normaloff>templates/img/reload.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -2393,7 +2393,7 @@ QScrollBar::down-arrow:vertical {
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>398</width>
+         <width>478</width>
          <height>630</height>
         </rect>
        </property>
@@ -2453,7 +2453,7 @@ QPushButton:default {
           </property>
           <property name="icon">
            <iconset>
-            <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</iconset>
+            <normaloff>templates/img/arrows-4.png</normaloff>templates/img/arrows-4.png</iconset>
           </property>
           <property name="iconSize">
            <size>
@@ -2927,7 +2927,7 @@ QPushButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</iconset>
+        <normaloff>templates/img/arrows-4.png</normaloff>templates/img/arrows-4.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -3910,7 +3910,7 @@ QPushButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</iconset>
+        <normaloff>templates/img/arrows-4.png</normaloff>templates/img/arrows-4.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -3980,7 +3980,7 @@ QPushButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</iconset>
+        <normaloff>templates/img/arrows-4.png</normaloff>templates/img/arrows-4.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -4577,7 +4577,7 @@ QPushButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</iconset>
+        <normaloff>templates/img/arrows-4.png</normaloff>templates/img/arrows-4.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -4892,7 +4892,7 @@ QPushButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</iconset>
+        <normaloff>templates/img/arrows-4.png</normaloff>templates/img/arrows-4.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -4960,7 +4960,7 @@ QPushButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/update-arrows.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/update-arrows.png</iconset>
+        <normaloff>templates/img/update-arrows.png</normaloff>templates/img/update-arrows.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -5195,7 +5195,7 @@ QPushButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</iconset>
+        <normaloff>templates/img/arrows-4.png</normaloff>templates/img/arrows-4.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -5289,7 +5289,7 @@ QPushButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</iconset>
+        <normaloff>templates/img/arrows-4.png</normaloff>templates/img/arrows-4.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -5357,7 +5357,7 @@ QToolButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/Nozzle Offset Icon.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/Nozzle Offset Icon.png</iconset>
+        <normaloff>templates/img/Nozzle Offset Icon.png</normaloff>templates/img/Nozzle Offset Icon.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -5414,7 +5414,7 @@ QToolButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/magic-wand.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/magic-wand.png</iconset>
+        <normaloff>templates/img/magic-wand.png</normaloff>templates/img/magic-wand.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -5432,7 +5432,7 @@ QToolButton:focus {
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>180</y>
+        <y>110</y>
         <width>481</width>
         <height>71</height>
        </rect>
@@ -5475,7 +5475,7 @@ QPushButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/add.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/add.png</iconset>
+        <normaloff>templates/img/add.png</normaloff>templates/img/add.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -5518,6 +5518,74 @@ QPushButton:default {
       </property>
       <property name="text">
        <string>Calibration Wizard:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="fullCalibrationButton">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>180</y>
+        <width>481</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gotham Light</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+     border: 1px solid rgb(87, 87, 87);
+	background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));
+
+
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #dadbde, stop: 1 #f6f7fa);
+}
+
+QPushButton:flat {
+    border: none; /* no border for a flat push button */
+}
+
+QPushButton:default {
+    border-color: navy; /* make the default button prominent */
+}</string>
+      </property>
+      <property name="text">
+       <string>Full Calibration</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>templates/img/reload.png</normaloff>templates/img/reload.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
       </property>
      </widget>
      <widget class="QPushButton" name="calibrationWizardBackButton">
@@ -5567,7 +5635,7 @@ QPushButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</iconset>
+        <normaloff>templates/img/arrows-4.png</normaloff>templates/img/arrows-4.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -5611,7 +5679,7 @@ QPushButton:default {
        <string notr="true">color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
-       <string>We start by calibrating the print bed's level. A perfectly leveled bed is essential to get reliable printing performance. Click Next.</string>
+       <string>We start by calibrating the print bed's level. A perfectly leveled bed is essential to get reliable printing performance. Wait for all moves to finish and click Next</string>
       </property>
       <property name="wordWrap">
        <bool>true</bool>
@@ -5759,7 +5827,7 @@ QPushButton:focus {
        <string notr="true">color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
-       <string>Wait for all moves to finish and click Next</string>
+       <string>Release All Leveling Screws</string>
       </property>
       <property name="wordWrap">
        <bool>true</bool>
@@ -5988,7 +6056,7 @@ QPushButton:focus {
        <string notr="true">color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
-       <string>Tighten right leveling screw, untill nozzle is just touching the bed.</string>
+       <string>Ttighten right leveling screw untill nozzle just touches bed.</string>
       </property>
       <property name="wordWrap">
        <bool>true</bool>
@@ -6399,7 +6467,7 @@ QPushButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/verification-mark.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/verification-mark.png</iconset>
+        <normaloff>templates/img/verification-mark.png</normaloff>templates/img/verification-mark.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -6486,7 +6554,7 @@ QPushButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</iconset>
+        <normaloff>templates/img/arrows-4.png</normaloff>templates/img/arrows-4.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -6523,7 +6591,7 @@ QPushButton:focus {
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../octoprint_Julia2018ExtendedTouchUI/templates/img/Nozzle Offset.png</pixmap>
+       <pixmap>templates/img/Nozzle Offset.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -6578,7 +6646,7 @@ QPushButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/usb.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/usb.png</iconset>
+        <normaloff>templates/img/usb.png</normaloff>templates/img/usb.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -6658,7 +6726,7 @@ QPushButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</iconset>
+        <normaloff>templates/img/arrows-4.png</normaloff>templates/img/arrows-4.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -6721,7 +6789,7 @@ QPushButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/folder.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/folder.png</iconset>
+        <normaloff>templates/img/folder.png</normaloff>templates/img/folder.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -6860,7 +6928,7 @@ QPushButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</iconset>
+        <normaloff>templates/img/arrows-4.png</normaloff>templates/img/arrows-4.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -6932,7 +7000,7 @@ QPushButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/verification-mark.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/verification-mark.png</iconset>
+        <normaloff>templates/img/verification-mark.png</normaloff>templates/img/verification-mark.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -7004,7 +7072,7 @@ QPushButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-5.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-5.png</iconset>
+        <normaloff>templates/img/arrows-5.png</normaloff>templates/img/arrows-5.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -7082,7 +7150,7 @@ QPushButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows.png</iconset>
+        <normaloff>templates/img/arrows.png</normaloff>templates/img/arrows.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -7159,7 +7227,7 @@ QPushButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/delete.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/delete.png</iconset>
+        <normaloff>templates/img/delete.png</normaloff>templates/img/delete.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -7232,7 +7300,7 @@ QPushButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/icon.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/icon.png</iconset>
+        <normaloff>templates/img/icon.png</normaloff>templates/img/icon.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -7304,7 +7372,7 @@ QPushButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows.png</iconset>
+        <normaloff>templates/img/arrows.png</normaloff>templates/img/arrows.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -7382,7 +7450,7 @@ QPushButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/verification-mark.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/verification-mark.png</iconset>
+        <normaloff>templates/img/verification-mark.png</normaloff>templates/img/verification-mark.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -7454,7 +7522,7 @@ QPushButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</iconset>
+        <normaloff>templates/img/arrows-4.png</normaloff>templates/img/arrows-4.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -7526,7 +7594,7 @@ QPushButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-5.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-5.png</iconset>
+        <normaloff>templates/img/arrows-5.png</normaloff>templates/img/arrows-5.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -7717,7 +7785,7 @@ QPushButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</iconset>
+        <normaloff>templates/img/arrows-4.png</normaloff>templates/img/arrows-4.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -7783,7 +7851,7 @@ QToolButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/printer.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/printer.png</iconset>
+        <normaloff>templates/img/printer.png</normaloff>templates/img/printer.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -8080,7 +8148,7 @@ background-color: rgba(255, 255, 255, 0);</string>
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../octoprint_Julia2018ExtendedTouchUI/templates/img/thumbnail.png</pixmap>
+       <pixmap>templates/img/thumbnail.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -8147,7 +8215,7 @@ QToolButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/icon.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/icon.png</iconset>
+        <normaloff>templates/img/icon.png</normaloff>templates/img/icon.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -8178,7 +8246,7 @@ QToolButton:default {
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../octoprint_Julia2018ExtendedTouchUI/templates/img/thumbnail.png</pixmap>
+       <pixmap>templates/img/thumbnail.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -8230,7 +8298,7 @@ QPushButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</iconset>
+        <normaloff>templates/img/arrows-4.png</normaloff>templates/img/arrows-4.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -8321,7 +8389,7 @@ QToolButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/printer.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/printer.png</iconset>
+        <normaloff>templates/img/printer.png</normaloff>templates/img/printer.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -8439,8 +8507,8 @@ QTabBar:focus {
       <widget class="QWidget" name="feedRateTab">
        <attribute name="icon">
         <iconset>
-         <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/FeedRate.png</normaloff>
-         <normalon>../octoprint_Julia2018ExtendedTouchUI/templates/img/FeedRate_Selected.png</normalon>../octoprint_Julia2018ExtendedTouchUI/templates/img/FeedRate.png</iconset>
+         <normaloff>templates/img/FeedRate.png</normaloff>
+         <normalon>templates/img/FeedRate_Selected.png</normalon>templates/img/FeedRate.png</iconset>
        </attribute>
        <attribute name="title">
         <string/>
@@ -8522,7 +8590,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows.png</iconset>
+          <normaloff>templates/img/arrows.png</normaloff>templates/img/arrows.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -8589,7 +8657,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/verification-mark.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/verification-mark.png</iconset>
+          <normaloff>templates/img/verification-mark.png</normaloff>templates/img/verification-mark.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -8675,7 +8743,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-5.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-5.png</iconset>
+          <normaloff>templates/img/arrows-5.png</normaloff>templates/img/arrows-5.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -8802,8 +8870,8 @@ QSpinBox::down-button:pressed {
       <widget class="QWidget" name="temperatureTab">
        <attribute name="icon">
         <iconset>
-         <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/thermometer.png</normaloff>
-         <normalon>../octoprint_Julia2018ExtendedTouchUI/templates/img/thermometer_Selected.png</normalon>../octoprint_Julia2018ExtendedTouchUI/templates/img/thermometer.png</iconset>
+         <normaloff>templates/img/thermometer.png</normaloff>
+         <normalon>templates/img/thermometer_Selected.png</normalon>templates/img/thermometer.png</iconset>
        </attribute>
        <attribute name="title">
         <string/>
@@ -8882,7 +8950,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/snowflake.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/snowflake.png</iconset>
+          <normaloff>templates/img/snowflake.png</normaloff>templates/img/snowflake.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -8942,7 +9010,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/fan-black-silhouette-off.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/fan-black-silhouette-off.png</iconset>
+          <normaloff>templates/img/fan-black-silhouette-off.png</normaloff>templates/img/fan-black-silhouette-off.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -9013,7 +9081,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/fan-black-silhouette.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/fan-black-silhouette.png</iconset>
+          <normaloff>templates/img/fan-black-silhouette.png</normaloff>templates/img/fan-black-silhouette.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -9175,7 +9243,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/verification-mark.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/verification-mark.png</iconset>
+          <normaloff>templates/img/verification-mark.png</normaloff>templates/img/verification-mark.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -9348,7 +9416,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/verification-mark.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/verification-mark.png</iconset>
+          <normaloff>templates/img/verification-mark.png</normaloff>templates/img/verification-mark.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -9370,8 +9438,8 @@ QPushButton:focus {
       <widget class="QWidget" name="motionTab">
        <attribute name="icon">
         <iconset>
-         <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/Motion.png</normaloff>
-         <normalon>../octoprint_Julia2018ExtendedTouchUI/templates/img/Motion_Selected.png</normalon>../octoprint_Julia2018ExtendedTouchUI/templates/img/Motion.png</iconset>
+         <normaloff>templates/img/Motion.png</normaloff>
+         <normalon>templates/img/Motion_Selected.png</normalon>templates/img/Motion.png</iconset>
        </attribute>
        <attribute name="title">
         <string/>
@@ -9640,7 +9708,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows.png</iconset>
+          <normaloff>templates/img/arrows.png</normaloff>templates/img/arrows.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -9713,7 +9781,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-5.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-5.png</iconset>
+          <normaloff>templates/img/arrows-5.png</normaloff>templates/img/arrows-5.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -9786,7 +9854,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-2.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-2.png</iconset>
+          <normaloff>templates/img/arrows-2.png</normaloff>templates/img/arrows-2.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -9859,7 +9927,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</iconset>
+          <normaloff>templates/img/arrows-4.png</normaloff>templates/img/arrows-4.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -9930,7 +9998,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/home-icon-silhouette.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/home-icon-silhouette.png</iconset>
+          <normaloff>templates/img/home-icon-silhouette.png</normaloff>templates/img/home-icon-silhouette.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -10001,7 +10069,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/home-icon-silhouette.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/home-icon-silhouette.png</iconset>
+          <normaloff>templates/img/home-icon-silhouette.png</normaloff>templates/img/home-icon-silhouette.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -10072,7 +10140,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/motor.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/motor.png</iconset>
+          <normaloff>templates/img/motor.png</normaloff>templates/img/motor.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -10145,7 +10213,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows.png</iconset>
+          <normaloff>templates/img/arrows.png</normaloff>templates/img/arrows.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -10218,7 +10286,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-5.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-5.png</iconset>
+          <normaloff>templates/img/arrows-5.png</normaloff>templates/img/arrows-5.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -10339,7 +10407,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/remove.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/remove.png</iconset>
+          <normaloff>templates/img/remove.png</normaloff>templates/img/remove.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -10413,7 +10481,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/add.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/add.png</iconset>
+          <normaloff>templates/img/add.png</normaloff>templates/img/add.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -10504,11 +10572,11 @@ QPushButton:focus {
       <widget class="QWidget" name="filamentTab">
        <attribute name="icon">
         <iconset>
-         <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/Spool.png</normaloff>
-         <normalon>../octoprint_Julia2018ExtendedTouchUI/templates/img/Spool_Selected.png</normalon>
-         <activeon>../octoprint_Julia2018ExtendedTouchUI/png/Spool_Selected.png</activeon>
-         <selectedoff>../octoprint_Julia2018ExtendedTouchUI/png/Spool.png</selectedoff>
-         <selectedon>../octoprint_Julia2018ExtendedTouchUI/png/Spool_Selected.png</selectedon>../octoprint_Julia2018ExtendedTouchUI/templates/img/Spool.png</iconset>
+         <normaloff>templates/img/Spool.png</normaloff>
+         <normalon>templates/img/Spool_Selected.png</normalon>
+         <activeon>png/Spool_Selected.png</activeon>
+         <selectedoff>png/Spool.png</selectedoff>
+         <selectedon>png/Spool_Selected.png</selectedon>templates/img/Spool.png</iconset>
        </attribute>
        <attribute name="title">
         <string/>
@@ -10558,7 +10626,7 @@ QToolButton :focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/changeFilament.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/changeFilament.png</iconset>
+          <normaloff>templates/img/changeFilament.png</normaloff>templates/img/changeFilament.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -10616,7 +10684,7 @@ QPushButton:focus {
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/verification-mark.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/verification-mark.png</iconset>
+          <normaloff>templates/img/verification-mark.png</normaloff>templates/img/verification-mark.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -10800,7 +10868,7 @@ QToolButton :focus {
         </property>
         <property name="icon">
          <iconset>
-          <normalon>../octoprint_Julia2018ExtendedTouchUI/templates/img/filamentSensorOn.png</normalon>
+          <normalon>templates/img/filamentSensorOn.png</normalon>
          </iconset>
         </property>
         <property name="iconSize">
@@ -10874,7 +10942,7 @@ QPushButton:default {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</iconset>
+        <normaloff>templates/img/arrows-4.png</normaloff>templates/img/arrows-4.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -11095,7 +11163,7 @@ QPushButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/load.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/load.png</iconset>
+        <normaloff>templates/img/load.png</normaloff>templates/img/load.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -11149,7 +11217,7 @@ QPushButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/unload.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/unload.png</iconset>
+        <normaloff>templates/img/unload.png</normaloff>templates/img/unload.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -11209,7 +11277,7 @@ QPushButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</iconset>
+        <normaloff>templates/img/arrows-4.png</normaloff>templates/img/arrows-4.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -11379,7 +11447,7 @@ QPushButton:focus {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</normaloff>../octoprint_Julia2018ExtendedTouchUI/templates/img/arrows-4.png</iconset>
+        <normaloff>templates/img/arrows-4.png</normaloff>templates/img/arrows-4.png</iconset>
       </property>
       <property name="iconSize">
        <size>
@@ -11404,7 +11472,7 @@ QPushButton:focus {
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../octoprint_Julia2018ExtendedTouchUI/templates/img/changeFilament2.png</pixmap>
+       <pixmap>templates/img/changeFilament2.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
