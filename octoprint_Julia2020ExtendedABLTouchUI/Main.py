@@ -11,7 +11,7 @@
  * Licence: AGPLv3
 *************************************************************************
 '''
-import mainGUI_extended 
+import mainGUI_extended_abl
 import keyboard
 import dialog
 import styles
@@ -259,10 +259,10 @@ class ClickableLineEdit(QtGui.QLineEdit):
         self.emit(QtCore.SIGNAL("clicked()"))
 
 
-class MainUiClass(QtGui.QMainWindow, mainGUI_extended.Ui_MainWindow):
+class MainUiClass(QtGui.QMainWindow, mainGUI_extended_abl.Ui_MainWindow):
     '''
     Main GUI Workhorse, all slots and events defined within
-    The main implementation class that inherits methods, variables etc from mainGUI_extended.py and QMainWindow
+    The main implementation class that inherits methods, variables etc from mainGUI_extended_abl.py and QMainWindow
     '''
 
     def setupUi(self, MainWindow):
@@ -416,15 +416,12 @@ class MainUiClass(QtGui.QMainWindow, mainGUI_extended.Ui_MainWindow):
             lambda: self.stackedWidget.setCurrentWidget(self.calibrationWizardPage))
         self.calibrationWizardBackButton.clicked.connect(
             lambda: self.stackedWidget.setCurrentWidget(self.calibratePage))
-        self.quickCalibrationButton.clicked.connect(lambda: self.quickStep1(False))
-        self.fullCalibrationButton.clicked.connect(lambda: self.quickStep1(True))
+        self.quickCalibrationButton.clicked.connect(self.quickStep1)
         self.quickStep1NextButton.clicked.connect(self.quickStep2)
         self.quickStep2NextButton.clicked.connect(self.quickStep3)
         self.quickStep3NextButton.clicked.connect(self.quickStep4)
         self.quickStep4NextButton.clicked.connect(self.quickStep5)
-        self.quickStep5NextButton.clicked.connect(self.proceedToFull)
-        self.fullStep1NextButton.clicked.connect(self.fullStep2)
-        self.fullStep2NextButton.clicked.connect(self.fullStep2)
+        self.quickStep5NextButton.clicked.connect(self.doneStep)
         # self.moveZPCalibrateButton.pressed.connect(lambda: octopiclient.jog(z=-0.05))
         # self.moveZPCalibrateButton.pressed.connect(lambda: octopiclient.jog(z=0.05))
         self.moveZMFullCalibrateButton.pressed.connect(lambda: octopiclient.jog(z=-0.025))
@@ -434,8 +431,6 @@ class MainUiClass(QtGui.QMainWindow, mainGUI_extended.Ui_MainWindow):
         self.quickStep3CancelButton.pressed.connect(self.cancelStep)
         self.quickStep4CancelButton.pressed.connect(self.cancelStep)
         self.quickStep5CancelButton.pressed.connect(self.cancelStep)
-        self.fullStep1CancelButton.pressed.connect(self.cancelStep)
-        self.fullStep2CancelButton.pressed.connect(self.cancelStep)
 
         # PrintLocationScreen
         self.printLocationScreenBackButton.pressed.connect(lambda: self.stackedWidget.setCurrentWidget(self.MenuPage))
@@ -1600,7 +1595,7 @@ class MainUiClass(QtGui.QMainWindow, mainGUI_extended.Ui_MainWindow):
         octopiclient.gcode(command='M503')
         self.stackedWidget.setCurrentWidget(self.nozzleOffsetPage)
 
-    def quickStep1(self, fullCalibration=False):
+    def quickStep1(self):
         '''
         Shows welcome message.
         Sets Z Home Offset = 0
@@ -1612,7 +1607,6 @@ class MainUiClass(QtGui.QMainWindow, mainGUI_extended.Ui_MainWindow):
         octopiclient.gcode(
             command='M503')  # gets the value of Z offset, that would be restored later, see getZHomeOffset()
         octopiclient.gcode(command='M420 S0')  # Dissable mesh bed leveling for good measure
-        self.fullCalibration = fullCalibration
         octopiclient.gcode(command='M206 Z0')  # Sets Z home offset to 0
         octopiclient.home(['x', 'y', 'z'])
         octopiclient.jog(x=100, y=100, z=15, absolute=True, speed=1500)
@@ -1654,52 +1648,16 @@ class MainUiClass(QtGui.QMainWindow, mainGUI_extended.Ui_MainWindow):
         octopiclient.jog(x=calibrationPosition['X3'], y=calibrationPosition['Y3'], absolute=True, speed=9000)
         octopiclient.jog(z=0, absolute=True, speed=1500)
 
-    def proceedToFull(self):
+    def doneStep(self):
         '''
         decides weather to go to full calibration of return to calibration screen
         :return:
         '''
-        if not self.fullCalibration:
-            self.stackedWidget.setCurrentWidget(self.calibratePage)
-            octopiclient.gcode(command='M501')  # restore eeprom settings to get Z home offset, mesh bed leveling back
-            octopiclient.home(['x', 'y', 'z'])
-        else:
-            self.fullStep1()
 
-    def fullStep1(self):
-        '''
-        levels third leveling position
-        :return:
-        '''
-        # sent twice for some reason
-        self.stackedWidget.setCurrentWidget(self.fullStep1Page)
-        octopiclient.jog(z=10, absolute=True, speed=9000)
-        octopiclient.jog(x=0, y=0, absolute=True, speed=9000)
-        # octopiclient.home(['x', 'y', 'z'])
-        self.fullLevelingCount = 0
+        self.stackedWidget.setCurrentWidget(self.calibratePage)
+        octopiclient.gcode(command='M501')  # restore eeprom settings to get Z home offset, mesh bed leveling back
+        octopiclient.home(['x', 'y', 'z'])
 
-    def fullStep2(self):
-        '''
-        levels third leveling position
-        :return:
-        '''
-        self.pointLabel.setText("Point {} of 9".format(int(self.fullLevelingCount + 1)))
-        if self.fullLevelingCount == 0:  # first point
-            octopiclient.gcode(command='G29 S1')
-            self.stackedWidget.setCurrentWidget(self.fullStep2Page)
-            self.fullLevelingCount += 1
-
-        else:
-            # All other poitns
-            if self.fullLevelingCount < 9:
-                self.stackedWidget.setCurrentWidget(self.fullStep2Page)
-                octopiclient.gcode(command='G29 S2')
-                self.fullLevelingCount += 1
-            else:
-                octopiclient.gcode(command='G29 S2')
-                self.stackedWidget.setCurrentWidget(self.calibratePage)
-                octopiclient.gcode(command='M206 Z{}'.format(self.nozzleHomeOffset))  # restore Z offset
-                octopiclient.gcode(command='M500')  # save mesh and restored Z offset
 
     def cancelStep(self):
         octopiclient.gcode(command='M501')  # restore eeprom settings

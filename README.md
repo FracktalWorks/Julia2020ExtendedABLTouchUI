@@ -1,6 +1,6 @@
- Julia2018TouchUI
+ Julia2020TouchUI
 ==================
-Touch UI for Julia 2018
+Touch UI for Julia 2020
 
 ## Development Requiements:
 

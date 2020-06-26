@@ -4,7 +4,7 @@ api:
   enabled: true
   key: B508534ED20348F090B4D0AD637D3660
 appearance:
-  name: Julia Extended
+  name: Julia Extended ABL
 devel:
   cache:
     enabled: true
@@ -101,7 +101,7 @@ printerProfiles:
     heatedBed: true
     id: _default
     model: Fracktal Works Julia Series
-    name: Julia Extended
+    name: Julia Extended ABL
     volume:
       custom_box: false
       depth: 250.0
