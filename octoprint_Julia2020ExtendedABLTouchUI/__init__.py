@@ -57,7 +57,7 @@ class Julia2020ExtendedABLTouchUI(octoprint.plugin.StartupPlugin):
 
     def get_update_information(self):
         return dict(
-            Julia2018ExtendedTouchUI=dict(
+            Julia2020ExtendedTouchUI=dict(
                 displayName="Julia2020ExtendedABLTouchUI",
                 displayVersion=self._plugin_version,
                 # version check: github repository
@@ -73,7 +73,7 @@ class Julia2020ExtendedABLTouchUI(octoprint.plugin.StartupPlugin):
 
 
 __plugin_name__ = "Julia Extended ABL Touch UI"
-__plugin_version__ = "1.0.0"
+__plugin_version__ = "1.0.1"
 
 
 def __plugin_load__():

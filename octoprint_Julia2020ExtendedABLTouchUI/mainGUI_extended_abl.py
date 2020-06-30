@@ -1343,7 +1343,7 @@ class Ui_MainWindow(object):
         self.scrollArea.setWidgetResizable(True)
         self.scrollArea.setObjectName(_fromUtf8("scrollArea"))
         self.scrollAreaWidgetContents = QtGui.QWidget()
-        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 478, 630))
+        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 398, 630))
         self.scrollAreaWidgetContents.setObjectName(_fromUtf8("scrollAreaWidgetContents"))
         self.verticalLayout = QtGui.QVBoxLayout(self.scrollAreaWidgetContents)
         self.verticalLayout.setContentsMargins(0, 0, 3, 0)
@@ -3165,7 +3165,7 @@ class Ui_MainWindow(object):
         self.calibrationWizardPage = QtGui.QWidget()
         self.calibrationWizardPage.setObjectName(_fromUtf8("calibrationWizardPage"))
         self.quickCalibrationButton = QtGui.QPushButton(self.calibrationWizardPage)
-        self.quickCalibrationButton.setGeometry(QtCore.QRect(0, 110, 481, 71))
+        self.quickCalibrationButton.setGeometry(QtCore.QRect(0, 180, 481, 71))
         self.quickCalibrationButton.setMinimumSize(QtCore.QSize(0, 0))
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("Gotham Light"))
@@ -3209,39 +3209,6 @@ class Ui_MainWindow(object):
         self.calibrationWizardLabel.setFont(font)
         self.calibrationWizardLabel.setStyleSheet(_fromUtf8("color: rgb(255, 255, 255);"))
         self.calibrationWizardLabel.setObjectName(_fromUtf8("calibrationWizardLabel"))
-        self.fullCalibrationButton = QtGui.QPushButton(self.calibrationWizardPage)
-        self.fullCalibrationButton.setGeometry(QtCore.QRect(0, 180, 481, 71))
-        self.fullCalibrationButton.setMinimumSize(QtCore.QSize(0, 0))
-        font = QtGui.QFont()
-        font.setFamily(_fromUtf8("Gotham Light"))
-        font.setPointSize(12)
-        self.fullCalibrationButton.setFont(font)
-        self.fullCalibrationButton.setStyleSheet(_fromUtf8("QPushButton {\n"
-"     border: 1px solid rgb(87, 87, 87);\n"
-"    background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.188, stop:0 rgba(180, 180, 180, 255), stop:1 rgba(255, 255, 255, 255));\n"
-"\n"
-"\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,\n"
-"                                      stop: 0 #dadbde, stop: 1 #f6f7fa);\n"
-"}\n"
-"\n"
-"QPushButton:flat {\n"
-"    border: none; /* no border for a flat push button */\n"
-"}\n"
-"\n"
-"QPushButton:default {\n"
-"    border-color: navy; /* make the default button prominent */\n"
-"}"))
-        self.fullCalibrationButton.setIcon(icon10)
-        self.fullCalibrationButton.setIconSize(QtCore.QSize(50, 50))
-        self.fullCalibrationButton.setCheckable(False)
-        self.fullCalibrationButton.setAutoDefault(False)
-        self.fullCalibrationButton.setDefault(False)
-        self.fullCalibrationButton.setFlat(False)
-        self.fullCalibrationButton.setObjectName(_fromUtf8("fullCalibrationButton"))
         self.calibrationWizardBackButton = QtGui.QPushButton(self.calibrationWizardPage)
         self.calibrationWizardBackButton.setGeometry(QtCore.QRect(0, 250, 481, 71))
         self.calibrationWizardBackButton.setMinimumSize(QtCore.QSize(0, 0))
@@ -6758,7 +6725,7 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.mainApplication)
 
         self.retranslateUi(MainWindow)
-        self.stackedWidget.setCurrentIndex(0)
+        self.stackedWidget.setCurrentIndex(16)
         self.controlTabWidget.setCurrentIndex(0)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
@@ -6860,7 +6827,6 @@ class Ui_MainWindow(object):
         self.calibrationWizardButton.setText(_translate("MainWindow", "Wizard", None))
         self.quickCalibrationButton.setText(_translate("MainWindow", "Quick Calibration", None))
         self.calibrationWizardLabel.setText(_translate("MainWindow", "Calibration Wizard:", None))
-        self.fullCalibrationButton.setText(_translate("MainWindow", "Full Calibration", None))
         self.calibrateLabel_6.setText(_translate("MainWindow", "We start by calibrating the print bed\'s level. A perfectly leveled bed is essential to get reliable printing performance. Wait for all moves to finish and click Next", None))
         self.quickStep1NextButton.setText(_translate("MainWindow", "Next", None))
         self.quickStep1CancelButton.setText(_translate("MainWindow", "Cancel", None))
