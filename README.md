@@ -13,7 +13,7 @@ Touch UI for Julia 2020
 4. other dependencies that "Main.py" needs (see it's headers)
 
 The MainGUI.py file is generated from the mainGUI_extended.ui file using
- ```pyuic4 .\mainGUI_extended.ui -o .\mainGUI_extended.py```
+ ```pyuic4 .\mainGUI_extended_abl.ui -o .\mainGUI_extended_abl.py```
 
 
 
