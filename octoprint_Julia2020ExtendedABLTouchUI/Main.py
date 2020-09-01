@@ -1720,7 +1720,7 @@ class MainUiClass(QtGui.QMainWindow, mainGUI_extended_abl.Ui_MainWindow):
             if dialog.WarningOk(self, "Network Disconnected"):
                 return
         self.QRCodeLabel.setPixmap(
-            qrcode.make(json.dumps(qrip), image_factory=Image).pixmap())
+            qrcode.make("http://"+ qrip, image_factory=Image).pixmap())
         self.stackedWidget.setCurrentWidget(self.QRCodePage)
 
 
